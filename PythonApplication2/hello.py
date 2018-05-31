@@ -1,6 +1,7 @@
 class Dog:
     species='mammal'
-    #color='black'
+    color='black'
+    hair="long"
     def __init__(self, name, age):
         self.name=name
         self.age=age
@@ -15,7 +16,7 @@ class Dog:
 
 class poodle(Dog):
     species='not a dog'
-    color='white'
+    color='Pink'
     def run(self,speed):
         
         return"{} runs {}".format(self.name, speed)
@@ -42,5 +43,6 @@ if __name__=="__main__":
     print(isinstance(p,Dog))
     print(isinstance(poodle,Dog))
     print(p.species)
+    print(p.color)
 
 

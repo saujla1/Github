@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>01939a48-5c40-47b7-a3c7-532adeb7e4b2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>hello.py</StartupFile>
+    <StartupFile>pets_class.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="class1.py" />
     <Compile Include="hello.py" />
+    <Compile Include="pets_class.py" />
     <Compile Include="PythonApplication2.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
